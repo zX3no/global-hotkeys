@@ -51,7 +51,7 @@ impl<T> Listener<T> {
             let id = self.last_id;
             let result = winuser::RegisterHotKey(0 as HWND, id, modifiers, key);
             if result == 0 {
-                panic!("Failed to register hotkey");
+                // panic!("Failed to register hotkey");
             }
             self.handlers.insert(id, event);
             self.last_id += 1;
