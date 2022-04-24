@@ -19,7 +19,6 @@ fn main() {
                 Event::Next => println!("Next"),
                 Event::Previous => println!("Previous"),
                 Event::PlayPause => println!("Play/Pause"),
-                _ => (),
             }
         }
     }

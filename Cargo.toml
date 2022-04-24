@@ -1,9 +1,12 @@
 [package]
 name = "win-hotkey"
 version = "0.0.1"
-license = "MIT"
-authors = ["Bay"]
 edition = "2021"
+
+authors = ["Bay"]
+repository = "https://github.com/zX3no/gonk"
+# readme = "README.md"
+license = "MIT"
 
 [dependencies]
 winapi = { version = "0.3.8", features = ["winuser"] }
