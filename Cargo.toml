@@ -1,11 +1,11 @@
 [package]
-name = "win-hotkey"
+name = "global-hotkeys"
 version = "0.0.1"
 edition = "2021"
 
 authors = ["Bay"]
-repository = "https://github.com/zX3no/gonk"
-# readme = "README.md"
+repository = "https://github.com/zX3no/global-hotkeys"
+readme = "README.md"
 license = "MIT"
 
 [dependencies]
