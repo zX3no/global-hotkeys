@@ -1,5 +1,5 @@
 [package]
-name = "global-hotkeys"
+name = "global_hotkeys"
 version = "0.0.1"
 edition = "2021"
 
@@ -8,5 +8,5 @@ repository = "https://github.com/zX3no/global-hotkeys"
 readme = "README.md"
 license = "MIT"
 
-[dependencies]
+[target.'cfg(windows)'.dependencies]
 winapi = { version = "0.3.8", features = ["winuser"] }

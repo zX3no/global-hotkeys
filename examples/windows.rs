@@ -1,4 +1,4 @@
-use win_hotkey::*;
+use global_hotkeys::*;
 
 #[derive(Clone, Debug)]
 pub enum Event {
